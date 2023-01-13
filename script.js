@@ -28,7 +28,7 @@ let autoplay = 0;
 let indexTrack = 0;
 let songIsPlaying = false;
 let track=document.createElement('audio');
-// track.preload="none";
+track.preload="none";
 
 // All Event Listeners
 play.addEventListener('click',justPlay);
